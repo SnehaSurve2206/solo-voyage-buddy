@@ -32,6 +32,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             .single();
 
           if (profile) {
+            // Validate verification status to ensure it matches the expected type
+            const verificationStatus: 'pending' | 'verified' | 'unverified' = 
+              (profile.verification_status === 'verified' || profile.verification_status === 'unverified') 
+                ? profile.verification_status 
+                : 'pending';
+                
             setUser({
               id: session.user.id,
               email: profile.email,
@@ -39,7 +45,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
               interests: profile.interests || [],
               travelStyle: profile.travel_style || [],
               currentDestination: profile.current_destination,
-              verificationStatus: profile.verification_status || 'pending', // Ensure correct type
+              verificationStatus: verificationStatus,
               bio: profile.bio,
               avatar: profile.avatar
             });
