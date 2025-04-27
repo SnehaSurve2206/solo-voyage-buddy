@@ -1,4 +1,3 @@
-
 export interface User {
   id: string;
   name: string;
@@ -9,6 +8,14 @@ export interface User {
   verificationStatus: 'pending' | 'verified' | 'unverified';
   bio?: string;
   currentDestination?: string;
+  avatar?: string;
+  travelStyle?: string[];
+  upcomingDestinations?: {
+    id: string;
+    name: string;
+    startDate?: string;
+    countryCode?: string;
+  }[];
 }
 
 export interface Trip {
