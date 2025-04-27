@@ -13,7 +13,8 @@ export const mockTravelers: User[] = [
       { id: "d1", name: "Chiang Mai", countryCode: "TH", startDate: "2025-05-10" },
       { id: "d2", name: "Hanoi", countryCode: "VN", startDate: "2025-05-20" }
     ],
-    travelStyle: ["Budget", "Adventure", "Cultural"]
+    travelStyle: ["Budget", "Adventure", "Cultural"],
+    verificationStatus: "verified"
   },
   {
     id: "2",
@@ -26,7 +27,8 @@ export const mockTravelers: User[] = [
       { id: "d3", name: "Amsterdam", countryCode: "NL", startDate: "2025-05-15" },
       { id: "d4", name: "Berlin", countryCode: "DE", startDate: "2025-05-25" }
     ],
-    travelStyle: ["Mid-range", "Cultural", "Urban"]
+    travelStyle: ["Mid-range", "Cultural", "Urban"],
+    verificationStatus: "verified"
   },
   {
     id: "3",
@@ -38,7 +40,8 @@ export const mockTravelers: User[] = [
     upcomingDestinations: [
       { id: "d5", name: "Gold Coast", countryCode: "AU", startDate: "2025-06-01" }
     ],
-    travelStyle: ["Budget", "Outdoor", "Wellness"]
+    travelStyle: ["Budget", "Outdoor", "Wellness"],
+    verificationStatus: "verified"
   },
   {
     id: "4",
@@ -51,7 +54,8 @@ export const mockTravelers: User[] = [
       { id: "d6", name: "Serengeti", countryCode: "TZ", startDate: "2025-05-12" },
       { id: "d7", name: "Cape Town", countryCode: "ZA", startDate: "2025-06-05" }
     ],
-    travelStyle: ["Mid-range", "Adventure", "Eco-friendly"]
+    travelStyle: ["Mid-range", "Adventure", "Eco-friendly"],
+    verificationStatus: "verified"
   },
   {
     id: "5",
@@ -64,7 +68,8 @@ export const mockTravelers: User[] = [
       { id: "d8", name: "Seoul", countryCode: "KR", startDate: "2025-05-18" },
       { id: "d9", name: "Taipei", countryCode: "TW", startDate: "2025-05-28" }
     ],
-    travelStyle: ["Foodie", "Cultural", "Urban"]
+    travelStyle: ["Foodie", "Cultural", "Urban"],
+    verificationStatus: "verified"
   },
   {
     id: "6",
@@ -77,7 +82,8 @@ export const mockTravelers: User[] = [
       { id: "d10", name: "La Paz", countryCode: "BO", startDate: "2025-05-22" },
       { id: "d11", name: "Santiago", countryCode: "CL", startDate: "2025-06-10" }
     ],
-    travelStyle: ["Budget", "Backpacker", "Adventure"]
+    travelStyle: ["Budget", "Backpacker", "Adventure"],
+    verificationStatus: "verified"
   }
 ];
 

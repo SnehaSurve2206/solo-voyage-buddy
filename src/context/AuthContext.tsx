@@ -45,7 +45,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         email,
         interests: ['Hiking', 'Food', 'Photography'],
         travelStyle: ['Budget', 'Adventure'],
-        currentDestination: 'Bangkok, Thailand'
+        currentDestination: 'Bangkok, Thailand',
+        verificationStatus: 'verified' // Added this required field
       };
       
       setUser(mockUser);
@@ -77,6 +78,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         email,
         interests: [],
         travelStyle: [],
+        verificationStatus: 'pending' // Added this required field
       };
       
       setUser(newUser);
