@@ -39,7 +39,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
               interests: profile.interests || [],
               travelStyle: profile.travel_style || [],
               currentDestination: profile.current_destination,
-              verificationStatus: profile.verification_status,
+              verificationStatus: profile.verification_status || 'pending', // Ensure correct type
               bio: profile.bio,
               avatar: profile.avatar
             });
