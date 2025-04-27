@@ -55,15 +55,15 @@ const Login = () => {
         <Link to="/" className="flex items-center gap-2 mb-6">
           <Globe className="w-8 h-8 text-voyager-primary" />
           <span className="text-2xl font-bold bg-clip-text text-transparent voyager-gradient">
-            SoloVoyage
+            TravelBuds
           </span>
         </Link>
         
         <Card className="w-full max-w-md">
           <CardHeader>
-            <CardTitle className="text-center text-2xl">Welcome Explorer</CardTitle>
+            <CardTitle className="text-center text-2xl">Find Your Travel Buddy</CardTitle>
             <CardDescription className="text-center">
-              Your next adventure begins here
+              Connect with fellow travelers and explore together
             </CardDescription>
           </CardHeader>
           
@@ -173,7 +173,7 @@ const Login = () => {
           </CardContent>
           
           <CardFooter className="flex justify-center text-sm text-muted-foreground">
-            By continuing, you agree to SoloVoyage's Terms of Service and Privacy Policy.
+            By continuing, you agree to TravelBuds' Terms of Service and Privacy Policy.
           </CardFooter>
         </Card>
       </div>

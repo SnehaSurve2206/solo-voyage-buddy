@@ -3,20 +3,46 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  avatar?: string;
+  password?: string;
+  interests: string[];
+  profilePic?: string;
+  verificationStatus: 'pending' | 'verified' | 'unverified';
   bio?: string;
-  interests?: string[];
   currentDestination?: string;
-  upcomingDestinations?: Destination[];
-  travelStyle?: string[];
 }
 
-export interface Destination {
+export interface Trip {
   id: string;
-  name: string;
-  countryCode: string;
-  startDate?: string;
-  endDate?: string;
+  userId: string;
+  destination: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+}
+
+export interface Message {
+  id: string;
+  senderId: string;
+  receiverId: string;
+  content: string;
+  timestamp: string;
+}
+
+export interface Match {
+  id: string;
+  user1Id: string;
+  user2Id: string;
+  tripId: string;
+  status: 'pending' | 'accepted' | 'rejected';
+}
+
+export interface Review {
+  id: string;
+  reviewerId: string;
+  reviewedId: string;
+  rating: number;
+  comments: string;
+  createdAt: string;
 }
 
 export interface AuthFormData {
