@@ -6,7 +6,7 @@ export interface Destination {
   startDate: string;
 }
 
-export type VerificationStatus = "verified" | "pending" | "rejected";
+export type VerificationStatus = "verified" | "pending" | "rejected" | "unverified";
 
 export interface TravelImage {
   url: string;
