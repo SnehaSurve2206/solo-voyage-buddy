@@ -1,88 +1,87 @@
-
 import { User } from "@/types";
 
 export const mockTravelers: User[] = [
   {
     id: "1",
-    name: "Alex Chen",
-    email: "alex@example.com",
-    bio: "Digital nomad exploring Southeast Asia. Love hiking, local food, and photography.",
-    interests: ["Hiking", "Photography", "Food", "Culture"],
-    currentDestination: "Bangkok, Thailand",
+    name: "Arjun Patel",
+    email: "arjun@example.com",
+    bio: "Adventure seeker exploring the diverse landscapes of India. Love trekking, local cuisine, and capturing moments.",
+    interests: ["Trekking", "Photography", "Food", "Culture"],
+    currentDestination: "Varanasi, India",
     upcomingDestinations: [
-      { id: "d1", name: "Chiang Mai", countryCode: "TH", startDate: "2025-05-10" },
-      { id: "d2", name: "Hanoi", countryCode: "VN", startDate: "2025-05-20" }
+      { id: "d1", name: "Rishikesh", countryCode: "IN", startDate: "2025-05-10" },
+      { id: "d2", name: "Udaipur", countryCode: "IN", startDate: "2025-05-20" }
     ],
-    travelStyle: ["Budget", "Adventure", "Cultural"],
+    travelStyle: ["Adventure", "Cultural", "Photography"],
     verificationStatus: "verified"
   },
   {
     id: "2",
-    name: "Sophie Martin",
-    email: "sophie@example.com",
-    bio: "Art enthusiast on a year-long sabbatical. Looking for museum buddies and people to share coffee with.",
-    interests: ["Art", "Museums", "Cafes", "History"],
-    currentDestination: "Paris, France",
+    name: "Priya Singh",
+    email: "priya@example.com",
+    bio: "Heritage enthusiast exploring ancient temples and historical sites. Looking for fellow history lovers.",
+    interests: ["History", "Architecture", "Art", "Temples"],
+    currentDestination: "Jaipur, India",
     upcomingDestinations: [
-      { id: "d3", name: "Amsterdam", countryCode: "NL", startDate: "2025-05-15" },
-      { id: "d4", name: "Berlin", countryCode: "DE", startDate: "2025-05-25" }
+      { id: "d3", name: "Hampi", countryCode: "IN", startDate: "2025-05-15" },
+      { id: "d4", name: "Khajuraho", countryCode: "IN", startDate: "2025-05-25" }
     ],
-    travelStyle: ["Mid-range", "Cultural", "Urban"],
+    travelStyle: ["Cultural", "Heritage", "Luxury"],
     verificationStatus: "verified"
   },
   {
     id: "3",
-    name: "Miguel Santos",
-    email: "miguel@example.com",
-    bio: "Surfer and yoga teacher exploring coastal towns. Always up for sunrise beach sessions and local food.",
-    interests: ["Surfing", "Yoga", "Beaches", "Vegetarian Food"],
-    currentDestination: "Bali, Indonesia",
+    name: "Ravi Krishna",
+    email: "ravi@example.com",
+    bio: "Yoga practitioner and meditation enthusiast. Exploring spiritual destinations across India.",
+    interests: ["Yoga", "Meditation", "Spirituality", "Vegetarian Food"],
+    currentDestination: "Rishikesh, India",
     upcomingDestinations: [
-      { id: "d5", name: "Gold Coast", countryCode: "AU", startDate: "2025-06-01" }
+      { id: "d5", name: "Dharamshala", countryCode: "IN", startDate: "2025-06-01" }
     ],
-    travelStyle: ["Budget", "Outdoor", "Wellness"],
+    travelStyle: ["Spiritual", "Wellness", "Budget"],
     verificationStatus: "verified"
   },
   {
     id: "4",
-    name: "Emma Johnson",
-    email: "emma@example.com",
-    bio: "Wildlife photographer on a mission to document endangered species. Love trekking and camping under stars.",
-    interests: ["Photography", "Wildlife", "Trekking", "Nature"],
-    currentDestination: "Nairobi, Kenya",
+    name: "Aisha Khan",
+    email: "aisha@example.com",
+    bio: "Wildlife photographer documenting India's diverse fauna. Love national parks and tiger reserves.",
+    interests: ["Wildlife", "Photography", "Nature", "Conservation"],
+    currentDestination: "Ranthambore, India",
     upcomingDestinations: [
-      { id: "d6", name: "Serengeti", countryCode: "TZ", startDate: "2025-05-12" },
-      { id: "d7", name: "Cape Town", countryCode: "ZA", startDate: "2025-06-05" }
+      { id: "d6", name: "Kaziranga", countryCode: "IN", startDate: "2025-05-12" },
+      { id: "d7", name: "Bandhavgarh", countryCode: "IN", startDate: "2025-06-05" }
     ],
-    travelStyle: ["Mid-range", "Adventure", "Eco-friendly"],
+    travelStyle: ["Adventure", "Nature", "Photography"],
     verificationStatus: "verified"
   },
   {
     id: "5",
-    name: "Raj Patel",
-    email: "raj@example.com",
-    bio: "Foodie on a global culinary tour. Seeking fellow food enthusiasts to explore markets and cooking classes.",
-    interests: ["Cooking", "Food Tours", "Markets", "Street Food"],
-    currentDestination: "Tokyo, Japan",
+    name: "Dev Sharma",
+    email: "dev@example.com",
+    bio: "Culinary explorer on a mission to taste every regional Indian cuisine. Love street food and cooking classes.",
+    interests: ["Food", "Cooking", "Markets", "Culture"],
+    currentDestination: "Mumbai, India",
     upcomingDestinations: [
-      { id: "d8", name: "Seoul", countryCode: "KR", startDate: "2025-05-18" },
-      { id: "d9", name: "Taipei", countryCode: "TW", startDate: "2025-05-28" }
+      { id: "d8", name: "Kochi", countryCode: "IN", startDate: "2025-05-18" },
+      { id: "d9", name: "Amritsar", countryCode: "IN", startDate: "2025-05-28" }
     ],
     travelStyle: ["Foodie", "Cultural", "Urban"],
     verificationStatus: "verified"
   },
   {
     id: "6",
-    name: "Nina Schmidt",
-    email: "nina@example.com",
-    bio: "Solo backpacker taking a gap year after university. Love hiking, hostels, and making spontaneous plans.",
-    interests: ["Backpacking", "Hostels", "Hiking", "Budget Travel"],
-    currentDestination: "Cusco, Peru",
+    name: "Meera Reddy",
+    email: "meera@example.com",
+    bio: "Backpacker exploring off-beat destinations in Northeast India. Love hiking and local festivals.",
+    interests: ["Backpacking", "Hiking", "Festivals", "Local Culture"],
+    currentDestination: "Gangtok, India",
     upcomingDestinations: [
-      { id: "d10", name: "La Paz", countryCode: "BO", startDate: "2025-05-22" },
-      { id: "d11", name: "Santiago", countryCode: "CL", startDate: "2025-06-10" }
+      { id: "d10", name: "Tawang", countryCode: "IN", startDate: "2025-05-22" },
+      { id: "d11", name: "Majuli", countryCode: "IN", startDate: "2025-06-10" }
     ],
-    travelStyle: ["Budget", "Backpacker", "Adventure"],
+    travelStyle: ["Budget", "Adventure", "Cultural"],
     verificationStatus: "verified"
   }
 ];
