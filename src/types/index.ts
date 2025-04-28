@@ -1,3 +1,4 @@
+
 export interface Destination {
   id: string;
   name: string;
@@ -23,4 +24,5 @@ export interface User {
   travelStyle: string[];
   verificationStatus: VerificationStatus;
   images?: TravelImage[];
+  avatar?: string;
 }
