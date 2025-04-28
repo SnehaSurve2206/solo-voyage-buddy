@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -43,7 +42,7 @@ const Index = () => {
                 {!user && (
                   <Link to="/login" className="w-full sm:w-auto">
                     <Button size="lg" className="w-full bg-white text-voyager-primary hover:bg-gray-100">
-                      Join SoloVoyage
+                      Join Travel Bud's
                     </Button>
                   </Link>
                 )}
@@ -149,7 +148,7 @@ const Index = () => {
         <section className="py-16 px-4">
           <div className="container mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-2">How SoloVoyage Works</h2>
+              <h2 className="text-3xl font-bold mb-2">How Travel Bud's Works</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
                 Our platform makes it easy to find travel companions who share your interests and destinations
               </p>
@@ -197,7 +196,7 @@ const Index = () => {
             <div className="mb-8 md:mb-0 text-center md:text-left">
               <div className="flex items-center gap-2 justify-center md:justify-start">
                 <Globe className="h-6 w-6 text-voyager-tertiary" />
-                <span className="text-xl font-bold">SoloVoyage</span>
+                <span className="text-xl font-bold">Travel Bud's</span>
               </div>
               <p className="mt-2 text-sm text-gray-400 max-w-xs">
                 Connecting solo travelers for safer, more memorable adventures around the globe.
@@ -226,7 +225,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-sm text-gray-500">© {new Date().getFullYear()} SoloVoyage. All rights reserved.</p>
+            <p className="text-sm text-gray-500">© {new Date().getFullYear()} Travel Bud's. All rights reserved.</p>
           </div>
         </div>
       </footer>

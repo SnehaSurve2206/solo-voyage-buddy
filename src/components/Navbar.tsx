@@ -21,7 +21,7 @@ export function Navbar() {
         <Link to="/" className="flex items-center gap-2">
           <Globe className="w-6 h-6 text-voyager-primary" />
           <span className="text-xl font-bold bg-clip-text text-transparent voyager-gradient">
-            SoloVoyage
+            Travel Bud's
           </span>
         </Link>
         
