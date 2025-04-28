@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { Card, CardContent } from '@/components/ui/card';
@@ -95,7 +94,7 @@ const Discover = () => {
       <Navbar />
       
       <main className="flex-1 bg-muted/30 pb-12">
-        {/* Header */}
+        {/* Header with new gradient */}
         <div className="bg-gradient-to-r from-voyager-primary to-voyager-tertiary text-white py-12">
           <div className="container mx-auto px-4">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Discover Travel Buddies</h1>
@@ -151,16 +150,25 @@ const Discover = () => {
             </CardContent>
           </Card>
           
-          {/* Results */}
+          {/* Results with new image display */}
           <div className="mt-8">
             <h2 className="text-2xl font-bold mb-6">
               {filteredTravelers.length} Travelers Found
             </h2>
-            
+          
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredTravelers.map(traveler => (
                 <Card key={traveler.id} className="voyager-card overflow-hidden">
                   <CardContent className="p-0">
+                    {traveler.images && traveler.images.length > 0 && (
+                      <div className="aspect-video w-full overflow-hidden">
+                        <img
+                          src={traveler.images[0].url}
+                          alt={traveler.images[0].alt}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    )}
                     <div className="p-6">
                       <div className="flex justify-between items-start mb-4">
                         <div className="flex items-center gap-3">

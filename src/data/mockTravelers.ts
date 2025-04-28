@@ -13,7 +13,11 @@ export const mockTravelers: User[] = [
       { id: "d2", name: "Udaipur", countryCode: "IN", startDate: "2025-05-20" }
     ],
     travelStyle: ["Adventure", "Cultural", "Photography"],
-    verificationStatus: "verified"
+    verificationStatus: "verified",
+    images: [
+      { url: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png", alt: "Mountain lake reflection" },
+      { url: "/lovable-uploads/76cb3077-a3ee-4723-bf08-21fdc285fd6f.png", alt: "Coastal sunset" }
+    ]
   },
   {
     id: "2",
@@ -27,7 +31,11 @@ export const mockTravelers: User[] = [
       { id: "d4", name: "Khajuraho", countryCode: "IN", startDate: "2025-05-25" }
     ],
     travelStyle: ["Cultural", "Heritage", "Luxury"],
-    verificationStatus: "verified"
+    verificationStatus: "verified",
+    images: [
+      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Woman in flower garden" },
+      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tropical island view" }
+    ]
   },
   {
     id: "3",
@@ -40,7 +48,11 @@ export const mockTravelers: User[] = [
       { id: "d5", name: "Dharamshala", countryCode: "IN", startDate: "2025-06-01" }
     ],
     travelStyle: ["Spiritual", "Wellness", "Budget"],
-    verificationStatus: "verified"
+    verificationStatus: "verified",
+    images: [
+      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Woman in flower garden" },
+      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tropical island view" }
+    ]
   },
   {
     id: "4",
@@ -54,7 +66,11 @@ export const mockTravelers: User[] = [
       { id: "d7", name: "Bandhavgarh", countryCode: "IN", startDate: "2025-06-05" }
     ],
     travelStyle: ["Adventure", "Nature", "Photography"],
-    verificationStatus: "verified"
+    verificationStatus: "verified",
+    images: [
+      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Woman in flower garden" },
+      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tropical island view" }
+    ]
   },
   {
     id: "5",
@@ -68,7 +84,11 @@ export const mockTravelers: User[] = [
       { id: "d9", name: "Amritsar", countryCode: "IN", startDate: "2025-05-28" }
     ],
     travelStyle: ["Foodie", "Cultural", "Urban"],
-    verificationStatus: "verified"
+    verificationStatus: "verified",
+    images: [
+      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Woman in flower garden" },
+      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tropical island view" }
+    ]
   },
   {
     id: "6",
@@ -82,7 +102,11 @@ export const mockTravelers: User[] = [
       { id: "d11", name: "Majuli", countryCode: "IN", startDate: "2025-06-10" }
     ],
     travelStyle: ["Budget", "Adventure", "Cultural"],
-    verificationStatus: "verified"
+    verificationStatus: "verified",
+    images: [
+      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Woman in flower garden" },
+      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tropical island view" }
+    ]
   }
 ];
 
