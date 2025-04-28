@@ -47,7 +47,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
               currentDestination: profile.current_destination,
               verificationStatus: verificationStatus,
               bio: profile.bio,
-              avatar: profile.avatar
+              avatar: profile.avatar,
+              upcomingDestinations: [] // Add this missing property
             });
           }
         } else {
