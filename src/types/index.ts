@@ -8,11 +8,6 @@ export interface Destination {
 
 export type VerificationStatus = "verified" | "pending" | "rejected" | "unverified";
 
-export interface TravelImage {
-  url: string;
-  alt: string;
-}
-
 export interface User {
   id: string;
   name: string;
@@ -23,6 +18,5 @@ export interface User {
   upcomingDestinations: Destination[];
   travelStyle: string[];
   verificationStatus: VerificationStatus;
-  images?: TravelImage[];
   avatar?: string;
 }

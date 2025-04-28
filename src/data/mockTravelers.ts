@@ -15,11 +15,7 @@ export const mockTravelers: User[] = [
     ],
     travelStyle: ["Adventure", "Cultural", "Photography"],
     verificationStatus: "verified",
-    avatar: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png",
-    images: [
-      { url: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png", alt: "Mountain lake reflection" },
-      { url: "/lovable-uploads/76cb3077-a3ee-4723-bf08-21fdc285fd6f.png", alt: "Coastal sunset" }
-    ]
+    avatar: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png"
   },
   {
     id: "2",
@@ -34,11 +30,7 @@ export const mockTravelers: User[] = [
     ],
     travelStyle: ["Cultural", "Heritage", "Luxury"],
     verificationStatus: "verified",
-    avatar: "/lovable-uploads/76cb3077-a3ee-4723-bf08-21fdc285fd6f.png",
-    images: [
-      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Woman in flower garden" },
-      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tropical island view" }
-    ]
+    avatar: "/lovable-uploads/76cb3077-a3ee-4723-bf08-21fdc285fd6f.png"
   },
   {
     id: "3",
@@ -52,11 +44,7 @@ export const mockTravelers: User[] = [
     ],
     travelStyle: ["Spiritual", "Wellness", "Budget"],
     verificationStatus: "verified",
-    avatar: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png",
-    images: [
-      { url: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png", alt: "Mountain temple" },
-      { url: "/lovable-uploads/76cb3077-a3ee-4723-bf08-21fdc285fd6f.png", alt: "Sunset meditation" }
-    ]
+    avatar: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png"
   },
   {
     id: "4",
@@ -71,11 +59,7 @@ export const mockTravelers: User[] = [
     ],
     travelStyle: ["Adventure", "Nature", "Photography"],
     verificationStatus: "verified",
-    avatar: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png",
-    images: [
-      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Wildlife sanctuary" },
-      { url: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png", alt: "Tiger in forest" }
-    ]
+    avatar: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png"
   },
   {
     id: "5",
@@ -90,11 +74,7 @@ export const mockTravelers: User[] = [
     ],
     travelStyle: ["Foodie", "Cultural", "Urban"],
     verificationStatus: "verified",
-    avatar: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png",
-    images: [
-      { url: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png", alt: "Street food market" },
-      { url: "/lovable-uploads/76cb3077-a3ee-4723-bf08-21fdc285fd6f.png", alt: "Traditional thali" }
-    ]
+    avatar: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png"
   },
   {
     id: "6",
@@ -109,11 +89,7 @@ export const mockTravelers: User[] = [
     ],
     travelStyle: ["Budget", "Adventure", "Cultural"],
     verificationStatus: "verified",
-    avatar: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png",
-    images: [
-      { url: "/lovable-uploads/5c4e9825-196a-44a1-ad51-add6ea6af711.png", alt: "Mountain hiking" },
-      { url: "/lovable-uploads/7ede296a-1b1b-46f8-a106-785dcb08058f.png", alt: "Local festival" }
-    ]
+    avatar: "/lovable-uploads/6537d9ef-07a7-405d-8d71-312b93da6d9f.png"
   }
 ];
 

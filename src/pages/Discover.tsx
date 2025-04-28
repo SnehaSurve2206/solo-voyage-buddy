@@ -160,15 +160,6 @@ const Discover = () => {
               {filteredTravelers.map(traveler => (
                 <Card key={traveler.id} className="voyager-card overflow-hidden">
                   <CardContent className="p-0">
-                    {traveler.images && traveler.images.length > 0 && (
-                      <div className="aspect-video w-full overflow-hidden">
-                        <img
-                          src={traveler.images[0].url}
-                          alt={traveler.images[0].alt}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    )}
                     <div className="p-6">
                       <div className="flex justify-between items-start mb-4">
                         <div className="flex items-center gap-3">
