@@ -53,7 +53,7 @@ const Profile = () => {
                 <CardContent>
                   <div className="flex flex-col items-center mb-6">
                     <Avatar className="h-24 w-24 border-4 border-voyager-light mb-4">
-                      <AvatarImage src={user.avatar} />
+                      <AvatarImage src={user.avatar} alt={user.name} />
                       <AvatarFallback className="bg-voyager-light text-voyager-primary text-2xl">
                         {user.name.charAt(0)}
                       </AvatarFallback>

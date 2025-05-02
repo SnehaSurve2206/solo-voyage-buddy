@@ -1,7 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { Card, CardContent } from '@/components/ui/card';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -164,6 +165,7 @@ const Discover = () => {
                       <div className="flex justify-between items-start mb-4">
                         <div className="flex items-center gap-3">
                           <Avatar className="h-12 w-12 border-2 border-voyager-light">
+                            <AvatarImage src={traveler.avatar} alt={traveler.name} />
                             <AvatarFallback className="bg-voyager-light text-voyager-primary">
                               {traveler.name.charAt(0)}
                             </AvatarFallback>

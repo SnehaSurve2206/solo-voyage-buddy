@@ -94,6 +94,7 @@ const Index = () => {
                     <div className="p-6">
                       <div className="flex items-center gap-4 mb-4">
                         <Avatar className="h-12 w-12 border-2 border-voyager-light">
+                          <AvatarImage src={traveler.avatar} alt={traveler.name} />
                           <AvatarFallback className="bg-voyager-light text-voyager-primary">
                             {traveler.name.charAt(0)}
                           </AvatarFallback>
