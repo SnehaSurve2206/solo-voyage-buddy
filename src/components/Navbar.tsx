@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { User, LogIn, MapPin, Users, Globe } from 'lucide-react';
 
 export function Navbar() {
@@ -42,7 +42,6 @@ export function Navbar() {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="relative rounded-full h-8 w-8 p-0">
                   <Avatar className="h-8 w-8">
-                    <AvatarImage src={user.avatar} alt={user.name} />
                     <AvatarFallback className="bg-voyager-light text-voyager-primary">
                       {user.name.charAt(0)}
                     </AvatarFallback>

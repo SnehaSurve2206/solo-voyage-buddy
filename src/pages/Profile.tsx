@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { MapPin, Calendar, User, Edit, Globe, Heart, MessageCircle, Settings } from 'lucide-react';
 import { Navbar } from '@/components/Navbar';
@@ -53,7 +52,6 @@ const Profile = () => {
                 <CardContent>
                   <div className="flex flex-col items-center mb-6">
                     <Avatar className="h-24 w-24 border-4 border-voyager-light mb-4">
-                      <AvatarImage src={user.avatar} alt={user.name} />
                       <AvatarFallback className="bg-voyager-light text-voyager-primary text-2xl">
                         {user.name.charAt(0)}
                       </AvatarFallback>
